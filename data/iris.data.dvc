@@ -1,0 +1,7 @@
+md5: c028dc2eb338eae954a5807a5f45c53d
+outs:
+- md5: 2d25ad87214fbfc81aca5cddd3115c52
+  path: iris.data
+  cache: true
+  metric: false
+  persist: false

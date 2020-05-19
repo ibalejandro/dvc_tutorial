@@ -1,6 +1,8 @@
 appdirs==1.4.3
 argh==0.26.2
 atpublic==1.0
+boto3==1.13.12
+botocore==1.16.12
 bottle==0.12.9
 brotlipy==0.7.0
 certifi==2020.4.5.1
@@ -12,6 +14,7 @@ cryptography==2.9.2
 decorator==4.4.2
 distro==1.4.0
 docker-pycreds==0.4.0
+docutils==0.15.2
 dpath==1.4.2
 dvc==0.94.0
 flatten-json==0.1.6
@@ -26,6 +29,7 @@ grandalf==0.6
 humanize==2.4.0
 idna==2.8
 inflect==3.0.2
+jmespath==0.10.0
 jsonpath-ng==1.5.1
 marshmallow-jsonapi==0.15.1
 nanotime==0.5.2
@@ -42,10 +46,12 @@ pygtrie==2.3.2
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
 PySocks==1.7.1
+python-dateutil==2.8.1
 PyYAML==5.3.1
 requests==2.22.0
 ruamel.yaml==0.16.6
 ruamel.yaml.clib==0.2.0
+s3transfer==0.3.3
 shortuuid==1.0.1
 six==1.14.0
 smmap==3.0.4
