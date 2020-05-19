@@ -1,0 +1,13 @@
+md5: 6cda47b2e1c929a8fc31841cc6e4ca26
+cmd: python prepare.py
+deps:
+- md5: 76acdfc2db8116d471ccee9b56e461a4
+  path: prepare.py
+- md5: 2d25ad87214fbfc81aca5cddd3115c52
+  path: data/iris.data
+outs:
+- md5: 8fc90c8f9dcf70538bbf454beccdb8b4.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false
