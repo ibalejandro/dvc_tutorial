@@ -1,0 +1,16 @@
+md5: 06f3f290da81ee8cf0323362271817fd
+cmd: python svm/evaluate.py svm/svm.pkl svm/powers/test.csv svm/acc.metric
+wdir: ..
+deps:
+- md5: e65f674b40f7ba588e24a0c9b6124d10
+  path: svm/evaluate.py
+- md5: 2be1f94875fb7182abef46b8bb32cac5
+  path: svm/svm.pkl
+- md5: ebbf09b0efc11063745d78951841013a
+  path: svm/powers/test.csv
+outs:
+- md5: e4c2e8edac362acab7123654b9e73432
+  path: svm/acc.metric
+  cache: false
+  metric: true
+  persist: false
