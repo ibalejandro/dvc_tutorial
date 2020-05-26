@@ -1,0 +1,14 @@
+md5: ac38f4f43531a2b9158f2fffcfc96596
+cmd: python svm/power_features.py
+wdir: ..
+deps:
+- md5: 164893ff8deb565c403c4206828d06c2
+  path: svm/power_features.py
+- md5: 8fc90c8f9dcf70538bbf454beccdb8b4.dir
+  path: data/prepared
+outs:
+- md5: cc27e22b54f29ea9265f8a7ee8040461.dir
+  path: svm/powers
+  cache: true
+  metric: false
+  persist: false
