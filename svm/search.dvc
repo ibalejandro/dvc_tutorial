@@ -1,0 +1,14 @@
+md5: 5277888c4f31b2c2a6d6e80898850e2f
+cmd: python svm/search.py svm/powers svm/svm.pkl
+wdir: ..
+deps:
+- md5: c4e26d3ae903d558dcf962da6c3d7de0
+  path: svm/search.py
+- md5: cc27e22b54f29ea9265f8a7ee8040461.dir
+  path: svm/powers
+outs:
+- md5: 2be1f94875fb7182abef46b8bb32cac5
+  path: svm/svm.pkl
+  cache: true
+  metric: false
+  persist: false
